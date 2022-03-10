@@ -1,0 +1,423 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: auto;
+    font-family: 'cookie', cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner{
+    width:100%;
+    height: 650px;
+    background-image: url(../images/pair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.nav{
+    width:100%;
+    height: auto;
+    background-color: rgba(255,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    align-items: center;
+    margin-left: 20px;
+    color:rgb(31, 138, 10);
+}
+.menu{
+    width:50%;
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color:rgb(34, 70, 148);
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 3px solid rgb(31, 138, 10);
+}
+.text{
+    width:90%;
+    position: relative;
+    top:10px;
+    padding-bottom: 100px;
+    left: 5px;
+    right: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.text h1{
+    color:rgb(46, 121, 121);
+    text-shadow: 0 3px 10px rgba(3, 3, 3, 0.5);
+}
+.text h2{
+    color:rgb(46, 121, 121);
+    text-shadow: 0 3px 10px rgba(3, 3, 3, 0.5);
+}
+.banner2{
+    width:100%;
+    height: 650px;
+    background-image: url(../images/heartsbnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav2{
+    width:90%;
+    height: auto;
+    background-color: rgba(255,200,200,.7);
+    border-radius: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav2 b{
+    font-size: 50px;
+    margin-left: 10px;
+    color:rgb(177, 33, 112);
+}
+.text2{
+    width:100%;
+    position: relative;
+    top:75px;
+    left: 20px;
+    font-size: 50px;
+    text-align: left;
+}
+.text2 h1{
+    color:rgb(126, 219, 123);
+    text-shadow: 0 3px 10px rgba(3, 3, 3, 0.836);
+}
+.text2 .date2{
+    color:#fff;
+    background-color: #f15;
+    padding: 1px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text2 .date2:hover{
+    background-color: #fff;
+    color:#f15;
+}
+.section{
+    width:100%;
+    height: auto;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.section h2{
+    width:100%;
+    text-align: center;
+    color:#f15;
+    font-size: 60px;
+}
+.venue{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.venue iframe{
+    width:70%;
+    height: 250px;
+    display: inline;
+    border:2px solid #f15;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.venue p{
+    font-size: 35px;
+    line-height: 30px;
+    color:rgb(122, 68, 102);
+}
+.section2{
+    width:100%;
+    height: auto;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.RSVP{
+    width:100%;
+    height: auto;
+    background-color: rgb(240, 198, 233);
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.section.RSVP h2{
+    width:100%;
+    color:#f15;
+    text-align: center;
+    font-size: 60px;
+}
+footer{
+    width:100%;
+    height: auto;
+    color:rgb(77, 110, 35);
+    font-size: 30px;
+    font-family:"cookie",cursive;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 580px) {
+    .banner{
+        width:100%;
+        height: 700px;
+        background-image: url(../images/pair.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .nav{
+        width:100%;
+        height: auto;
+        background-color: rgba(255,200,200,.7);
+        border-radius: 30px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .nav b{
+        font-size: 25px;
+        align-items: center;
+        margin-left: 20px;
+        color:rgb(31, 138, 10);
+    }
+    .menu{
+        width:50%;
+        height: 50px;
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+        transition-duration: .5s;
+    }
+    .menu a{
+        text-decoration: none;
+        font-size: 15px;
+        color:rgb(216, 231, 79);
+        font-weight: bolder;
+        transition-duration: .5s;
+    }
+    .menu a:hover{
+        border-bottom: 3px solid rgb(31, 138, 10);
+    }
+    .text{
+        width:90%;
+        position: relative;
+        top:10px;
+        padding-bottom: 170px;
+        left: 7px;
+        right: 7px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .text h1{
+        color:rgb(251, 253, 253);
+        text-shadow: 0 3px 10px rgba(3, 3, 3, 0.5);
+    }
+    .text h2{
+        color:rgb(240, 240, 233);
+        text-shadow: 0 3px 10px rgba(3, 3, 3, 0.5);
+    }
+    .banner2{
+        width:100%;
+        height: 700px;
+        background-image: url(../images/heartsbnr.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        border-radius: 0 0 500px 0;
+    }
+    .nav2{
+        width:90%;
+        height: auto;
+        background-color: rgba(255,200,200,.7);
+        border-radius: 30px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .nav2 b{
+        font-size: 35px;
+        margin-left: 10px;
+        color:rgb(177, 33, 112);
+    }
+    .text2{
+        width:100%;
+        position: relative;
+        top:75px;
+        left: 20px;
+        font-size: 38px;
+        text-align: left;
+    }
+    .text2 h1{
+        color:rgb(126, 219, 123);
+        text-shadow: 0 3px 10px rgba(3, 3, 3, 0.836);
+    }
+    .text2 .date2{
+        color:#fff;
+        background-color: #f15;
+        padding: 1px;
+        border-radius: 40px 0 40px 0;
+        transition-duration: .5s;
+    }
+    .text2 .date2:hover{
+        background-color: #fff;
+        color:#f15;
+    }
+    .section{
+        width:100%;
+        height: auto;
+        background-color: #efefef;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .section h2{
+        width:100%;
+        text-align: center;
+        color:#f15;
+        font-size: 50px;
+    }
+    .venue{
+        width:80%;
+        height: auto;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+    }
+    .venue iframe{
+        width:70%;
+        height: 200px;
+        display: inline;
+        border:2px solid #f15;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .venue p{
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+        color:rgb(122, 68, 102);
+    }
+    .section2{
+        width:100%;
+        height: auto;
+        background-color: #efefef;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .RSVP{
+        width:100%;
+        height: auto;
+        background-color: rgb(240, 198, 233);
+        border-radius: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+    }
+    .section.RSVP h2{
+        width:100%;
+        color:#f15;
+        text-align: center;
+        font-size: 60px;
+    }
+    footer{
+        width:100%;
+        height: auto;
+        color:rgb(77, 110, 35);
+        font-size: 30px;
+        font-family:"cookie",cursive;
+        margin-top: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
